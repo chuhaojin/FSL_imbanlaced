@@ -1,0 +1,12 @@
+简介:
+本课题的题目为《基于小样本学习的目标检测技术研究与优化》。
+本课题主要探究了如何缓解数据分布不均衡问题为模型带来的负面影响。我们使用样本的类内方差，对距离函数进行了修正，从而在
+一定程度上提升了模型的准确率。
+我们的改进方法，在20-way 5-shot和5-way 5-shot的设定下，取得了约2%的准确率提升。
+
+数据集：Mini-ImageNet
+下载链接：
+miniimagenet: https://drive.google.com/file/d/1sWN_LgZ5P9b8q6kw57i8pBMmWji-TCkH/view?usp=sharing
+mini-imagenet-train_600.npy: https://drive.google.com/drive/folders/1WtAyopaGNYTh1bT5CMEHCZSMOuTn3Qym?usp=sharing
+mini-imagenet-test_600.npy: https://drive.google.com/file/d/1rgNhQ92krHZU_2HnUBEn7OwxHDeOZsvS/view?usp=sharing
+
